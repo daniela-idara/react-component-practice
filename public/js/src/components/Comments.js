@@ -7,7 +7,7 @@ function Comments(props){
                     <i className="fa fa-comments fa-5x"></i>
                 </div>
                 <div className="col-xs-9 text-right">
-                    <div className="huge">26</div>
+                    <div className="huge">{props.newComments}</div>
                     <div>New Comments!</div>
                 </div>
             </div>
