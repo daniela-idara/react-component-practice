@@ -7,7 +7,7 @@ function Orders(props){
                     <i className="fa fa-shopping-cart fa-5x"></i>
                 </div>
                 <div className="col-xs-9 text-right">
-                    <div className="huge">124</div>
+                    <div className="huge">{props.newOrders}</div>
                     <div>New Orders!</div>
                 </div>
             </div>

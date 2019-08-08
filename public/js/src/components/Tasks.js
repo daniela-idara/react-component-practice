@@ -7,7 +7,7 @@ function Tasks(props){
                     <i className="fa fa-tasks fa-5x"></i>
                 </div>
                 <div className="col-xs-9 text-right">
-                    <div className="huge">12</div>
+                    <div className="huge">{props.newTasks}</div>
                     <div>New Tasks!</div>
                 </div>
             </div>
