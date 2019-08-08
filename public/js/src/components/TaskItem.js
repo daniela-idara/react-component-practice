@@ -1,6 +1,6 @@
 function TaskItem(props){
-    return(<a href="#" className="list-group-item">
-    <span className="badge">{tasks.time}</span>
-    <i className="fa fa-fw fa-calendar"></i> {taskItem}
+    return( <a href="#" className="list-group-item">
+    <span className="badge">{props.date}</span>
+    <i className="fa fa-fw fa-calendar"></i> {props.task}
 </a>)
 }
