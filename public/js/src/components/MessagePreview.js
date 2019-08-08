@@ -6,14 +6,14 @@ function MessagePreview(props){
                 <img className="media-object" src="http://placehold.it/50x50" alt="" />
             </span>
             <div className="media-body">
-                <h5 className="media-heading"><strong>{messages.name}</strong>
+                <h5 className="media-heading"><strong>{props.name}</strong>
                 </h5>
                 {/*  <DateTime>   */}
                <DateTime />
                 {/*  </DateTime>   */}
-                <p>{messages.message}</p>
-            </div>
-        </div>
-    </a>
-</li>)
+                <p>{props.message}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>)
 }
